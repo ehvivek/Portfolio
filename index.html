@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Tags -->
+  <title>Vivek Kumar — Engineering Student, Builder, Entrepreneur</title>
+  <meta name="title" content="Vivek Kumar — Engineering Student, Builder, Entrepreneur">
+  <meta name="description" content="Portfolio of Vivek Kumar. Retro 8-bit pixel art hero aesthetic meets high-performance modern SaaS landing page. Engineering student, builder, and entrepreneur.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="pixel_art_hero.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons for Contacts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Premium Navigation Header (Inspired by cofounder.co) -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo-link" style="display: flex; align-items: center;">
+        <img src="signature.png" alt="Vivek Kumar" style="height: 80px; width: auto; object-fit: contain; filter: invert(1) brightness(2);">
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <a href="#contact" class="nav-cta">Let's Build</a>
+    </div>
+  </header>
+
+  <!-- Hero Section with Scenic Background -->
+  <section class="hero-section" id="home">
+    <div class="hero-overlay"></div>
+    
+    <!-- Hero Left: Headlines & CTAs (top-left area) -->
+    <div class="hero-content">
+      <h1 class="hero-headline">Hi, I'm Vivek.</h1>
+      <p class="hero-subtext">Engineering student, Quant researcher, Developer</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#about" class="btn btn-outline">See About Me</a>
+      </div>
+    </div>
+    
+    <!-- Floating popups positioned just above the laptop in the bg image -->
+    <div class="hero-popups">
+      <!-- Status Chips -->
+      <div class="status-chips-container">
+        <div class="status-chip" id="chip-1">
+          <span class="status-indicator-dot"></span>
+          <span class="status-text">Currently studying at <span class="highlight-text">RGIPT</span></span>
+        </div>
+        <div class="status-chip" id="chip-2">
+          <span class="status-indicator-dot pulsing"></span>
+          <span class="status-text">Open to <span class="highlight-text">internships</span></span>
+        </div>
+        <div class="status-chip" id="chip-3">
+          <span class="status-indicator-dot"></span>
+          <span class="status-text">Building <span class="highlight-text">side projects</span></span>
+        </div>
+      </div>
+
+      <!-- Terminal Console -->
+      <div class="pixel-laptop-wrapper">
+        <div class="pixel-laptop-float">
+          <div class="interactive-console">
+            <div class="console-header">
+              <span class="console-dot red"></span>
+              <span class="console-dot yellow"></span>
+              <span class="console-dot green"></span>
+              <span class="console-title">v_terminal.sh</span>
+            </div>
+            <div class="console-body">
+              <p class="console-line"><span class="prompt">$</span> npm init v-portfolio</p>
+              <p class="console-line success">✓ Initialization complete</p>
+              <p class="console-line"><span class="prompt">$</span> v --status</p>
+              <p class="console-line info">● Ready to write code &amp; build ventures.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Retro Pixel Jagged Transition Divider (Inspired by cofounder.co) -->
+    <div class="pixel-divider">
+      <svg viewBox="0 0 1200 40" preserveAspectRatio="none">
+        <path d="M0,20 L40,20 L40,10 L80,10 L80,30 L120,30 L120,20 L160,20 L160,10 L200,10 L200,25 L240,25 L240,15 L280,15 L280,30 L320,30 L320,10 L360,10 L360,20 L400,20 L400,15 L440,15 L440,30 L480,30 L480,20 L520,20 L520,10 L560,10 L560,25 L600,25 L600,15 L640,15 L640,30 L680,30 L680,10 L720,10 L720,20 L760,20 L760,15 L800,15 L800,30 L840,30 L840,20 L880,20 L880,10 L920,10 L920,25 L960,25 L960,15 L1000,15 L1000,30 L1040,30 L1040,10 L1080,10 L1080,20 L1120,20 L1120,15 L1160,15 L1160,30 L1200,30 L1200,40 L0,40 Z" fill="#f5f5f0" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- Main Content Areas (Dark/Navy Theme) -->
+  <main class="main-content">
+
+    <!-- Interactive Builder Ecosystem Section (Inspired by cofounder.co) -->
+    <section id="ecosystem" class="ecosystem-section">
+      <div class="section-container">
+        
+        <div class="ecosystem-card">
+        <div class="ecosystem-grid">
+          
+          <!-- Left: Interactive Mindmap -->
+          <div class="ecosystem-left">
+            <div class="mindmap-wrapper">
+              
+              <!-- Orbital Dotted Tracks -->
+              <div class="orbital-track inner"></div>
+              <div class="orbital-track outer"></div>
+              
+              <!-- SVG Connecting Lines -->
+              <svg class="mindmap-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <!-- Connector lines that glow on hover -->
+                <line x1="50" y1="50" x2="50" y2="10" id="line-engineering" class="connector-line" />
+                <line x1="50" y1="50" x2="88" y2="30" id="line-ai" class="connector-line" />
+                <line x1="50" y1="50" x2="88" y2="70" id="line-quant" class="connector-line" />
+                <line x1="50" y1="50" x2="50" y2="90" id="line-media" class="connector-line" />
+                <line x1="50" y1="50" x2="12" y2="70" id="line-systems" class="connector-line" />
+                <line x1="50" y1="50" x2="12" y2="30" id="line-data" class="connector-line" />
+              </svg>
+
+              <!-- Central Core Sprout Node -->
+              <div class="mindmap-node core-node">
+                <div class="core-node-inner">
+                  <svg class="sprout-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22V11M12 11C12 11 9.5 5 4 5C4 5 5 10 12 11ZM12 11C12 11 15 6 20 6C20 6 18.5 12 12 11Z" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span class="core-text">Vivek Core</span>
+                </div>
+              </div>
+
+              <!-- Surrounding Department Nodes -->
+              <!-- 1. Engineering -->
+              <div class="mindmap-node outer-node node-top" data-dept="engineering">
+                <span class="node-dot-status active"></span>
+                <span class="node-label">Engineering</span>
+              </div>
+              
+              <!-- 2. Artificial Intelligence -->
+              <div class="mindmap-node outer-node node-top-right" data-dept="ai">
+                <span class="node-dot-status active"></span>
+                <span class="node-label">Artificial Intelligence</span>
+              </div>
+              
+              <!-- 3. Quant Research -->
+              <div class="mindmap-node outer-node node-bottom-right" data-dept="quant">
+                <span class="node-dot-status idle"></span>
+                <span class="node-label">Quant Research</span>
+              </div>
+              
+              <!-- 4. Digital Media -->
+              <div class="mindmap-node outer-node node-bottom" data-dept="media">
+                <span class="node-dot-status active"></span>
+                <span class="node-label">Digital Media</span>
+              </div>
+              
+              <!-- 5. System Design -->
+              <div class="mindmap-node outer-node node-bottom-left" data-dept="systems">
+                <span class="node-dot-status active"></span>
+                <span class="node-label">System Design</span>
+              </div>
+              
+              <!-- 6. Data Analytics -->
+              <div class="mindmap-node outer-node node-top-left" data-dept="data">
+                <span class="node-dot-status idle"></span>
+                <span class="node-label">Data Analytics</span>
+              </div>
+
+            </div>
+          </div>
+          
+          <!-- Right: Sleek Console Sidebar -->
+          <div class="ecosystem-right">
+            <div class="builder-console-sidebar">
+              
+              <!-- Console Tab Headers -->
+              <div class="console-tabs-bar">
+                <button class="console-tab-btn active" data-tab="chat">Console</button>
+                <button class="console-tab-btn" data-tab="agents">Active Agents</button>
+                <button class="console-tab-btn" data-tab="logs">System Log</button>
+              </div>
+
+              <!-- TAB 1: CONSOLE CHAT (Reactive Content) -->
+              <div class="console-tab-content active" id="tab-chat">
+                
+                <!-- Chat Window -->
+                <div class="console-chat-box">
+                  <div class="chat-message system">
+                    <span class="sender">SYSTEM</span>
+                    <p class="msg-text">Let's build. Hover over my expertise nodes to explore specific capabilities.</p>
+                  </div>
+                  
+                  <div class="chat-message agent-reply">
+                    <span class="sender">🌱 Vivek Core Agent</span>
+                    <p class="msg-text" id="dynamic-agent-pitch">I am Vivek, an autonomous student builder. Select any capability node in my neural map to coordinate actions, run scripts, or compile custom SaaS modules.</p>
+                  </div>
+                </div>
+                
+
+
+                
+              </div>
+
+              <!-- TAB 2: ACTIVE AGENTS -->
+              <div class="console-tab-content" id="tab-agents">
+                <div class="agents-status-list">
+                  <div class="agent-status-row">
+                    <div class="agent-meta">
+                      <span class="agent-indicator running"></span>
+                      <div>
+                        <p class="agent-name">Growth Agent</p>
+                        <p class="agent-desc">Optimizing SEO pipelines & landing speeds</p>
+                      </div>
+                    </div>
+                    <span class="agent-badge badge-running">Running</span>
+                  </div>
+                  
+                  <div class="agent-status-row">
+                    <div class="agent-meta">
+                      <span class="agent-indicator idle"></span>
+                      <div>
+                        <p class="agent-name">Postgres Agent</p>
+                        <p class="agent-desc">Query tuning & schema compilation</p>
+                      </div>
+                    </div>
+                    <span class="agent-badge badge-idle">Idle</span>
+                  </div>
+                  
+                  <div class="agent-status-row">
+                    <div class="agent-meta">
+                      <span class="agent-indicator running"></span>
+                      <div>
+                        <p class="agent-name">AI RPG Agent</p>
+                        <p class="agent-desc">Prompt tuning character statistics</p>
+                      </div>
+                    </div>
+                    <span class="agent-badge badge-running">Running</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- TAB 3: SYSTEM LOG -->
+              <div class="console-tab-content" id="tab-logs">
+                <div class="system-logs-terminal">
+                  <p class="log-row info">[15:42:01] Neural system connected.</p>
+                  <p class="log-row success">[15:42:05] Loaded 6 modules from Vivek Core.</p>
+                  <p class="log-row">[15:42:08] Listening for browser hover events...</p>
+                  <p class="log-row success">[15:42:15] Completed compilation: Gridiron Devboard</p>
+                  <p class="log-row info" id="dynamic-log-line">[15:43:00] Standing by: Vivek-Core ecosystem is fully ready.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+        </div>
+
+        <!-- Three SaaS Pillars Underneath Mindmap Grid -->
+        <div class="feature-triad">
+          <!-- Pillar 1 -->
+          <div class="triad-card">
+            <h3 class="triad-title">Build First</h3>
+            <p class="triad-text">
+              I learn by creating. Whether it's AI systems, quantitative research, software products, or digital experiences, I prefer turning ideas into working solutions rather than leaving them on paper.
+            </p>
+          </div>
+          
+          <!-- Pillar 2 -->
+          <div class="triad-card">
+            <h3 class="triad-title">Research & Iterate</h3>
+            <p class="triad-text">
+              Curiosity drives everything I do. I enjoy exploring new technologies, testing hypotheses, analyzing data, and refining ideas through continuous experimentation.
+            </p>
+          </div>
+          
+          <!-- Pillar 3 -->
+          <div class="triad-card">
+            <h3 class="triad-title">Create With Purpose</h3>
+            <p class="triad-text">
+              My goal isn't just to write code—it's to build meaningful products, acquire deep expertise, and create systems that deliver lasting value.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+      <div class="section-container">
+        <h2 class="section-title">About Me<span class="title-dot">.</span></h2>
+        
+        <div class="about-grid">
+          <!-- Left: Narrative Bio -->
+          <div class="about-bio">
+            <h3 class="bio-lead">A builder and researcher turning ambitious ideas into intelligent products.</h3>
+            <p class="bio-text">
+              I’m an engineering student at <strong>Rajiv Gandhi Institute of Petroleum Technology (RGIPT), Jais, Uttar Pradesh</strong> ~ exploring the intersection of chemical engineering, software engineering, digital media, quantitative research, data analytics, and artificial intelligence. I enjoy transforming complex challenges into elegant, scalable solutions that combine innovation, efficiency, and thoughtful design.
+            </p>
+            <p class="bio-text">
+              Driven by curiosity and a passion for creation, I work on projects that bridge engineering, technology, and creativity building digital products, AI powered systems, and data-driven solutions that make a meaningful impact.
+            </p>
+            <div class="bio-highlight-box">
+              <i class="fa-solid fa-gamepad icon-accent"></i>
+              <p class="highlight-quote">"Exploring the intersection of AI, quantitative research, and engineering"</p>
+            </div>
+          </div>
+          
+          <!-- Right: Metrics / RPG Stats Sheet -->
+          <div class="about-stats-panel">
+            <div class="stats-panel-header">
+              <h3>Vivek's Player Stats</h3>
+              <span class="level-badge">RGIPT'29</span>
+            </div>
+            
+            <div class="stats-list">
+              <!-- Stat Card 1 -->
+              <div class="stat-bar-group">
+                <div class="stat-meta">
+                  <span class="stat-label"><i class="fa-solid fa-brain icon-stat"></i> Artificial Intelligence</span>
+                  <span class="stat-value">90%</span>
+                </div>
+                <div class="stat-track">
+                  <div class="stat-fill" style="width: 90%"></div>
+                </div>
+              </div>
+              
+              <!-- Stat Card 2 -->
+              <div class="stat-bar-group">
+                <div class="stat-meta">
+                  <span class="stat-label"><i class="fa-solid fa-code icon-stat"></i> Software Development</span>
+                  <span class="stat-value">92%</span>
+                </div>
+                <div class="stat-track">
+                  <div class="stat-fill" style="width: 92%"></div>
+                </div>
+              </div>
+              
+              <!-- Stat Card 3 -->
+              <div class="stat-bar-group">
+                <div class="stat-meta">
+                  <span class="stat-label"><i class="fa-solid fa-chart-line icon-stat"></i> Quant Research</span>
+                  <span class="stat-value">85%</span>
+                </div>
+                <div class="stat-track">
+                  <div class="stat-fill" style="width: 85%"></div>
+                </div>
+              </div>
+              
+              <!-- Stat Card 4 -->
+              <div class="stat-bar-group">
+                <div class="stat-meta">
+                  <span class="stat-label"><i class="fa-solid fa-photo-film icon-stat"></i> Digital Media</span>
+                  <span class="stat-value">95%</span>
+                </div>
+                <div class="stat-track">
+                  <div class="stat-fill" style="width: 95%"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fun Quick Facts Grid -->
+            <div class="quick-facts">
+              <div class="fact-card">
+                <span class="fact-num">12+</span>
+                <span class="fact-lbl">Projects Built</span>
+              </div>
+              <div class="fact-card">
+                <span class="fact-num">200K+</span>
+                <span class="fact-lbl">Lines Written</span>
+              </div>
+              <div class="fact-card">
+                <span class="fact-num">500+</span>
+                <span class="fact-lbl">Alphas Simulated</span>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="section-container">
+        <h2 class="section-title">Featured Work<span class="title-dot">.</span></h2>
+        
+        <div class="projects-list">
+          
+          <!-- Project 1: EventHub -->
+          <div class="project-card">
+            <div class="project-visual">
+              <div class="project-folder-tab">
+                <span class="folder-title">EventHub</span>
+                <i class="fa-solid fa-folder-open folder-icon"></i>
+              </div>
+              <div class="project-visual-preview" style="background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%); padding: 0;">
+                <!-- Add your EventHub screenshot as eventhub-preview.png in the project folder -->
+                <img src="eventhub-preview.png" alt="EventHub Preview" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0 0 16px 16px; opacity: 0.95; transition: opacity 0.3s;" onerror="this.style.display='none'">
+              </div>
+            </div>
+            
+            <div class="project-info">
+              <span class="project-category">Fullstack / Events</span>
+              <h3 class="project-name">EventHub</h3>
+              <p class="project-desc">
+                Send one link. Collect RSVPs. See who's actually coming. Events made easy. A modern event management platform featuring custom invites, automated RSVP tracking, and a seamless dashboard for hosts and guests.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">React</span>
+                <span class="tag">TailwindCSS</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+              <div class="project-links">
+                <a href="https://event-hub-gamma-black.vercel.app/" target="_blank" class="project-link-btn primary-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Launch Live</a>
+                <a href="https://github.com/ehvivek/EventHub" target="_blank" class="project-link-btn secondary-link"><i class="fa-brands fa-github"></i> Source</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 2: Election Explainer -->
+          <div class="project-card reversed">
+            <div class="project-visual">
+              <div class="project-folder-tab">
+                <span class="folder-title">Election Explainer</span>
+                <i class="fa-solid fa-folder-open folder-icon"></i>
+              </div>
+              <div class="project-visual-preview" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); padding: 0;">
+                <img src="election-preview.png" alt="Election Explainer Preview" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0 0 16px 16px; opacity: 0.95; transition: opacity 0.3s;" onerror="this.style.display='none'">
+              </div>
+            </div>
+            
+            <div class="project-info">
+              <span class="project-category">Education / Civic Tech</span>
+              <h3 class="project-name">Election Explainer</h3>
+              <p class="project-desc">
+                An interactive and immersive educational platform that breaks down the democratic election process. Features a stunning space-themed UI ("Rise of Democracy") that takes users on a journey to understand how their vote shapes the future.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Next.js</span>
+                <span class="tag">TailwindCSS</span>
+                <span class="tag">Framer Motion</span>
+              </div>
+              <div class="project-links">
+                <a href="https://election-process-education-294638616491.us-central1.run.app/" target="_blank" class="project-link-btn primary-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="https://github.com/ehvivek/election-explainer" target="_blank" class="project-link-btn secondary-link"><i class="fa-brands fa-github"></i> Source</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 3: Dust of Snow (Animated Video) -->
+          <div class="project-card">
+            <div class="project-visual">
+              <div class="project-folder-tab">
+                <span class="folder-title">Animated Video</span>
+                <i class="fa-solid fa-folder-open folder-icon"></i>
+              </div>
+              <div class="project-visual-preview" style="background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%); padding: 0;">
+                <img src="dust-of-snow-preview.png" alt="Dust of Snow Animation Preview" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0 0 16px 16px; opacity: 0.95; transition: opacity 0.3s;" onerror="this.style.display='none'">
+              </div>
+            </div>
+            
+            <div class="project-info">
+              <span class="project-category">Animation / Video</span>
+              <h3 class="project-name">Dust of Snow</h3>
+              <p class="project-desc">
+                A captivating animated video project bringing the poem "Dust of Snow" to life through vivid visuals, carefully crafted character design, and atmospheric storytelling.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Animation</span>
+                <span class="tag">Video Editing</span>
+                <span class="tag">Storytelling</span>
+                <span class="tag">Visual Art</span>
+              </div>
+              <div class="project-links">
+                <a href="https://youtu.be/5jTjynCetgw?si=H5v_KkWj6y-dpLwT" target="_blank" class="project-link-btn primary-link"><i class="fa-solid fa-play"></i> Watch Video</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="section-container">
+        <h2 class="section-title">Technical Arsenal<span class="title-dot">.</span></h2>
+        <p class="section-subtitle" style="color: var(--light-text-secondary); margin-bottom: 3rem; margin-top: -1rem; font-size: 1.1rem;">Technologies, tools and platforms I use to build, research and create.</p>
+        
+        <div class="skills-wrapper">
+          <!-- Category 1: AI & Quant Research -->
+          <div class="skills-category-card">
+            <div class="category-header-new">
+              <div class="icon-box">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="header-text">
+                <h3>AI & Quant Research</h3>
+                <p>Exploring intelligence, data and markets.</p>
+              </div>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-pill"><span class="bullet"></span> <i class="fa-brands fa-python skill-icon" style="color: #3776AB;"></i> <span class="skill-name">Python</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <i class="fa-solid fa-chart-line skill-icon" style="color: #2E2E2E;"></i> <span class="skill-name">Machine Learning</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <i class="fa-solid fa-network-wired skill-icon" style="color: #10a37f;"></i> <span class="skill-name">LLM Applications</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <i class="fa-solid fa-chart-simple skill-icon" style="color: #000000;"></i> <span class="skill-name">Data Analytics</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <i class="fa-solid fa-bullseye skill-icon" style="color: #4A148C;"></i> <span class="skill-name">Quantitative Research</span></div>
+            </div>
+          </div>
+          
+          <!-- Category 2: Web & Software Development -->
+          <div class="skills-category-card">
+            <div class="category-header-new">
+              <div class="icon-box">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="header-text">
+                <h3>Web & Software Development</h3>
+                <p>Building scalable web apps and robust software.</p>
+              </div>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-pill"><span class="bullet"></span> <i class="fa-brands fa-react skill-icon" style="color: #61DAFB;"></i> <span class="skill-name">React / Next.js</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <span class="skill-icon" style="color: #3178C6; font-weight: bold; background: #3178C6; color: white; border-radius: 4px; font-size: 0.7rem; display: inline-flex; align-items: center; justify-content: center; height: 20px;">TS</span> <span class="skill-name">TypeScript</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <i class="fa-brands fa-node-js skill-icon" style="color: #339933;"></i> <span class="skill-name">Node.js / Express</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <i class="fa-solid fa-database skill-icon" style="color: #336791;"></i> <span class="skill-name">PostgreSQL</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <span class="skill-icon" style="color: #2E2E2E; font-weight: 700; font-family: monospace; font-size: 1.1rem; white-space: nowrap; letter-spacing: 1px;">{}</span> <span class="skill-name">REST APIs</span></div>
+            </div>
+          </div>
+          
+          <!-- Category 3: Tools & Digital Media -->
+          <div class="skills-category-card">
+            <div class="category-header-new">
+              <div class="icon-box">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <div class="header-text">
+                <h3>Tools & Digital Media</h3>
+                <p>Essential tools for building, designing and creating.</p>
+              </div>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-pill"><span class="bullet"></span> <i class="fa-brands fa-github skill-icon" style="color: #181717;"></i> <span class="skill-name">Git / GitHub</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <i class="fa-brands fa-docker skill-icon" style="color: #2496ED;"></i> <span class="skill-name">Docker</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <span class="skill-icon" style="background: linear-gradient(45deg, #00C4CC, #7D2AE8); -webkit-background-clip: text; color: transparent; font-weight: bold; font-size: 1.2rem; font-family: sans-serif;">C</span> <span class="skill-name">Canva</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <span class="skill-icon" style="color: #fff; text-shadow: 0 0 2px #000, 0 0 4px #e03838, 0 0 6px #2e62ce; font-size: 1.2rem;">⌘</span> <span class="skill-name">DaVinci Resolve</span></div>
+              <div class="skill-pill"><span class="bullet"></span> <i class="fa-brands fa-figma skill-icon" style="color: #F24E1E;"></i> <span class="skill-name">Figma</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="section-container">
+        <div class="contact-card-centered">
+          <div class="contact-tag"><span style="color: #4ade80;">●</span> Open to Opportunities & Collaborations</div>
+          <h2 class="contact-title">What's the next<br>problem worth solving<span class="title-dot">?</span></h2>
+          <p class="contact-subtitle">
+            Interested in AI, quantitative research, software engineering, or digital products? I'm always excited to connect with people building interesting things.
+          </p>
+          
+          <div class="contact-cta-wrapper">
+            <a href="mailto:ehv1v3k@gmail.com" class="btn btn-primary contact-main-btn">
+              <i class="fa-solid fa-paper-plane"></i> Send me an Email
+            </a>
+          </div>
+
+          <div class="contact-divider"><span>CONNECT WITH ME</span></div>
+
+          <div class="social-links-grid">
+            <a href="https://github.com/ehvivek" target="_blank" class="social-icon-btn" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/vivekk52/" target="_blank" class="social-icon-btn" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://x.com/ehvivek" target="_blank" class="social-icon-btn" aria-label="X">
+              <i class="fa-brands fa-x-twitter"></i>
+              <span>X</span>
+            </a>
+          </div>
+
+          <div class="contact-bottom-tag">
+            <i class="fa-solid fa-rocket" style="color: #4ade80;"></i> Build. Learn. Iterate<span style="color: #4ade80;">.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-bar">
+    <div class="footer-container">
+      <p class="copyright">© 2026 Vivek Kumar. Made with retro vibes and modern code.</p>
+      <div class="back-to-top">
+        <a href="#home" class="to-top-btn"><i class="fa-solid fa-arrow-up"></i> Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="index.js"></script>
+</body>
+</html>
