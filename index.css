@@ -2027,7 +2027,9 @@ a {
     flex-shrink: 0;
     transform: scale(0.85);
     transform-origin: top center;
-    margin-bottom: -50px;
+    margin-bottom: -72px;
+    margin-left: -36px;
+    margin-right: -36px;
   }
 
   .builder-console-sidebar {
@@ -2114,7 +2116,9 @@ a {
     flex-shrink: 0;
     transform: scale(0.65);
     transform-origin: top center;
-    margin-bottom: -150px;
+    margin-bottom: -168px;
+    margin-left: -84px;
+    margin-right: -84px;
   }
   
   .console-tabs-bar {
