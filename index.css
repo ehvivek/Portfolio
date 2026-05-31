@@ -1175,7 +1175,6 @@ a {
    Contact Section (Centered, Clean Cards & Icon Links)
    ========================================================================== */
 .contact-section {
-  padding: 8rem 0;
   position: relative;
   background: var(--light-bg);
 }
