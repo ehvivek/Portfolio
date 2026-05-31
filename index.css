@@ -2021,10 +2021,13 @@ a {
   }
 
   .mindmap-wrapper {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    aspect-ratio: 1 / 1;
+    width: 480px;
+    max-width: 480px;
+    height: 480px;
+    flex-shrink: 0;
+    transform: scale(0.85);
+    transform-origin: top center;
+    margin-bottom: -50px;
   }
 
   .builder-console-sidebar {
@@ -2033,6 +2036,15 @@ a {
     border-top: 1px solid var(--light-card-border);
     padding-top: 2rem;
     height: auto;
+  }
+
+  .console-tabs-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .chat-message .msg-text {
+    word-break: break-word;
   }
 
   .triad-card {
@@ -2088,36 +2100,30 @@ a {
   .ecosystem-card {
     padding: 1.5rem 1rem;
     border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .ecosystem-left {
+    overflow: visible;
   }
 
   .mindmap-wrapper {
-    width: 100%;
-    max-width: 280px;
-    height: 280px;
-    aspect-ratio: unset;
-    margin: 0 auto;
+    width: 480px;
+    max-width: 480px;
+    height: 480px;
+    flex-shrink: 0;
+    transform: scale(0.65);
+    transform-origin: top center;
+    margin-bottom: -150px;
   }
   
-  .core-node {
-    width: 70px;
-    height: 70px;
+  .console-tabs-bar {
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  
-  .sprout-icon {
-    font-size: 1.2rem;
-  }
-  
-  .core-text {
-    font-size: 0.6rem;
-  }
-  
-  .outer-node {
-    padding: 0.4rem 0.8rem;
-    gap: 0.4rem;
-  }
-  
-  .node-label {
-    font-size: 0.65rem;
+
+  .chat-message .msg-text {
+    word-break: break-word;
   }
   
   .highlight-quote {
